@@ -49,6 +49,8 @@ int* MergeSort(int* unsorted_array, size_t unsorted_array_size){
 	free(sorted_array);
 
 	return unsorted_array;
+
+	//This will eventually count all the inversions
 }
 
 int main () {
